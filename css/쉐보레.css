@@ -253,7 +253,7 @@ header .inner .right_menu ul li {
 #container_3 .promotion div {
     position: absolute;
     top: 0;
-    right: 375px;
+    right: 100px;
 }
 
 #container_3 .promotion div h1 {
@@ -266,6 +266,10 @@ header .inner .right_menu ul li {
     font-size: 20px;
     line-height: 35px;
     margin-bottom: 32px;
+}
+
+#container_3 .promotion div p span{
+    font-size: 16px;
 }
 
 #container_3 .promotion div span a {
