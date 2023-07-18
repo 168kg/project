@@ -1,0 +1,498 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lugrasimo';
+    src: url('css/font/Lugrasimo-Regular.eot');
+    src: url('css/font/Lugrasimo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('css/font/Lugrasimo-Regular.woff2') format('woff2'),
+        url('css/font/Lugrasimo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Pretendard-Regular';
+    color: #333;
+}
+
+header {
+    width: 100%;
+    height: 83px;
+    line-height: 83px;
+    background-color: #292929;
+    color: #ffffff;
+}
+
+header .inner {
+    margin: 0 auto;
+    position: relative;
+}
+
+header .inner h1 {
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+header .inner h1 a img {
+    width: 129px;
+    height: 56px;
+    margin-left: 280px;
+}
+
+header .inner .gnb {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header .inner .gnb .depth01 {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-right: 90px;
+}
+
+header .inner .gnb .depth01>a {
+    padding: 0 20px;
+    transition: 0.1s;
+}
+
+header .inner .gnb .depth01:hover .depth02 {
+    display: block;
+}
+
+header .inner .gnb .depth01:hover>a {
+    color: #FFA800;
+    transform: scale(1.2);
+    transition: 0.1s;
+    display: block;
+}
+
+header .inner .gnb .depth01 .depth02 {
+    width: 100%;
+    background-color: #292929;
+    font-size: 14px;
+    line-height: 2;
+    display: none;
+    position: absolute;
+    top: 83px;
+    left: 0;
+}
+
+header .inner .right_menu {
+    margin-right: 280px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .inner .right_menu ul {
+    display: flex;
+    justify-content: right;
+}
+
+header .inner .right_menu ul li {
+    margin-left: 40px;
+}
+
+/* 🍅🍅🍅 container 1 start 🍅🍅🍅 */
+
+#container_1 {
+    margin: 56px 149px 116px 149px;
+}
+
+#container_1 .main_visual_1 h1 {
+    font-family: 'Lugrasimo';
+    font-size: 72px;
+    color: #292929;
+}
+
+#container_1 .main_visual_1 p {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+#container_1 video {
+    width: 1623px;
+    height: 681px;
+    object-fit: cover;
+}
+
+/* 🍅🍅🍅 container 2 start 🍅🍅🍅 */
+
+#container_2 .main_visual_2 {
+    text-align: center;
+}
+
+#container_2 .main_visual_2 h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#container_2 .main_visual_2 p {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 36px;
+}
+
+#container_2>div img {
+    display: block;
+    width: 1196px;
+    height: 675px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+#container_2 .item {
+    margin: 0 auto;
+    position: relative;
+    height: 544px;
+}
+
+#container_2 .item .img_2 div p:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+#container_2 .item>img {
+    width: 658px;
+    height: 374px;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 354px;
+}
+
+#container_2 .item .img_2 {
+    position: absolute;
+    top: 40px;
+    right: 354px;
+}
+
+#container_2 .item .img_2 img {
+    width: 508px;
+    height: 307px;
+    object-fit: cover;
+    display: block;
+}
+
+#container_2 .item .img_2 p {
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 13px;
+    position: relative;
+    transition: 0.2s;
+}
+
+#container_2 .item div p::before {
+    content: '';
+    width: 90px;
+    height: 1px;
+    background-color: #FFA800;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 🍅🍅🍅 container 3 start 🍅🍅🍅 */
+
+#container_3 .main_visual_3 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#container_3 .main_visual_3 h1 {
+    font-size: 60px;
+}
+
+#container_3 .promotion>img {
+    width: 1108px;
+    height: 623px;
+    display: block;
+    object-fit: cover;
+}
+
+#container_3 .promotion {
+    height: 623px;
+    position: relative;
+    margin-bottom: 115px;
+}
+
+#container_3 .promotion div {
+    position: absolute;
+    top: 0;
+    right: 375px;
+}
+
+#container_3 .promotion div h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#container_3 .promotion div p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 32px;
+}
+
+#container_3 .promotion div span a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFA800;
+    text-decoration-line: underline;
+}
+
+#container_3 .promotion div span img {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}
+
+/* 🍅🍅🍅 container 4 start 🍅🍅🍅 */
+
+#container_4 {
+    height: 1255px;
+    position: relative;
+}
+
+.main_visual_4 h1 {
+    font-size: 65px;
+    text-align: center;
+}
+
+.main_visual_4 ul {
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_visual_4 ul li {
+    display: inline-block;
+    margin: 0 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_visual_4 ul li span {
+    color: #FFA800;
+    text-decoration: underline;
+}
+
+.best {
+    margin: 100px 240px 234px;
+    display: flex;
+    justify-content: space-between;
+   /*  position: relative; */
+}
+
+.top {
+    width: 464px;
+    height: 755px;
+    border: 1px solid;
+    border-radius: 50px;
+    position: relative;
+    padding: 47px 37px;
+    box-sizing: border-box;
+
+}
+
+.top .txt_1 span {
+    font-size: 14px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 19px 7px 18px;
+    position: absolute;
+    top: 43px;
+    right: 37px;
+}
+
+.top .txt_1 h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.top .txt_1 p {
+    color: #333;
+    margin-bottom: 39px;
+}
+
+.top .top_img img {
+    width: 390px;
+    height: 171px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 39px;
+}
+
+
+.best ul {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.best ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.best ul li .tit {
+    font-weight: bold;
+}
+
+.best .pri {
+    margin-bottom: 52px;
+}
+
+.best .pri h1 {
+    font-size: 28px;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.best .pri h1 span {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.best .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.best .btn .btn_1 h1:nth-child(1):hover {
+    color: #FFA800;
+}
+
+.best .btn .btn_1 h1:nth-child(2):hover {
+    color: #FFA800;
+}
+
+.best .btn .btn_1 h1 {
+    width: 106px;
+    height: 48px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 48px;
+    margin-left: 15px;
+}
+
+.best .btn .btn_1 h1:nth-child(1) {
+    margin-left: 0;
+}
+
+.best .btn .btn_1 h1:nth-child(2) {
+    background-color: black;
+    color: #ffffff;
+}
+
+.best .icon .left {
+    position: absolute;
+    top: 50%;
+    left: 105px;
+}
+
+.best .icon .right {
+    position: absolute;
+    top: 50%;
+    right: 105px;
+}
+
+
+
+/* 🍅🍅🍅 footer start 🍅🍅🍅 */
+
+footer {
+    height: 205px;
+    background-color: #292929;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    position: relative;
+}
+
+footer .inner {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer .inner h1 img {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 63px;
+    left: 40px;
+}
+
+footer .inner nav ul {
+    display: flex;
+    position: absolute;
+    top: 62px;
+    left: 308px;
+}
+
+footer .inner nav ul li {
+    margin-right: 30px;
+}
+
+footer .inner>div {
+    position: absolute;
+    top: 111px;
+    left: 308px;
+}
+
+footer .inner div p {
+    line-height: 18px;
+}
+
+footer .icon {
+    position: absolute;
+    top: 86px;
+    right: 280px;
+}
+
+footer .icon a img {
+    width: 30px;
+    height: 32px;
+    object-fit: cover;
+    margin-left: 20px;
+}
